@@ -41,15 +41,15 @@ namespace task1
         
         public int CalculateMin(int[] values)
         {
-            int max =  values[0];
+            int min =  values[0];
             foreach (int val in values)
             {
-                if (val < max)
+                if (val < min)
                 {
-                    max = val;
+                    min = val;
                 }
             }
-            return max;
+            return min;
         }
     }
 }
