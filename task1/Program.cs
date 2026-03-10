@@ -25,5 +25,18 @@ namespace task1
             }
             return sum / values.Length;
         }
+
+        public int CalculateMax(int[] values)
+        {
+            int max =  values[0];
+            foreach (int val in values)
+            {
+                if (val > max)
+                {
+                    max = val;
+                }
+            }
+            return max;
+        }
     }
 }
