@@ -1,1 +1,3 @@
-init
+1. Git performs a fast forward merge when there are no new commits on the parent branch during the work on the child branch. A merge commit is created when git has to combine the commits from the parent and child branches during a merge.
+2. A merge attempts to combine newly added changes into the parent branch, meanwhile a rebase rewrites history and may delete changes on the parent branch is the user is not careful.
+3. I resolved the conflict by choosing the name of the variable that better fit the situation.
