@@ -44,7 +44,7 @@ namespace task1
             int max =  values[0];
             foreach (int val in values)
             {
-                if (val > max)
+                if (val < max)
                 {
                     max = val;
                 }
