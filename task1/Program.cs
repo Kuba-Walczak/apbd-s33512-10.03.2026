@@ -7,7 +7,7 @@ namespace task1
         public static void Main(string[] args)
         {
             String name = Console.ReadLine();
-            Console.WriteLine("Hello " + name);
+            Console.WriteLine("Hola " + name);
         }
     }
 }
