@@ -6,8 +6,8 @@ namespace task1
     {
         public static void Main(string[] args)
         {
-            string middleName = Console.ReadLine();
-            Console.WriteLine("Hola " + middleName);
+            string surname = Console.ReadLine();
+            Console.WriteLine("Hola " + surname);
             string[] weatherArr = ["rainy", "cloudy", "sunny", "bad", "good"];
             Console.WriteLine("It's currently " + weatherArr[new Random().Next(0, weatherArr.Length)]);
         }
